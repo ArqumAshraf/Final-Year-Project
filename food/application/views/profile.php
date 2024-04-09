@@ -153,7 +153,7 @@ $this->load->view('layout/header.php');
 </div>
 <?php $this->load->view('layout/footer.php');?>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyBYcFdaohOFLE_M-hyz835PD5Sp5UZDAK8"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=googlekey"></script>
 <script>
     var searchInput = 'search_input';
     $(document).ready(function () {

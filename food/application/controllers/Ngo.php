@@ -342,7 +342,7 @@ class Ngo extends MY_Controller {
 	} // finalDonateOrder
 
 	function sendPushNotification($fields = []){
-		$SERVER_KEY = 'AAAAFTqKx0M:APA91bFAsmz76y_hjcsllSU8vo-IuR3J0gHotlwfhmn7lM5bpMcDkvAF08xXQSRv-1rWlzeLX6bAJpvRWoD_dzkkArBsxe4GoDMzdrDvlnxWV5LwWD9IDe1nkZrCqlnFE8IzeYH1KfqT';
+		$SERVER_KEY = 'serverkey';
 		$headers = array
 		(
 			'Authorization: key=' . $SERVER_KEY,
